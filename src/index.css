@@ -1,0 +1,25 @@
+@font-face {
+  font-family: Gilroy;
+  src: url(./assests/gilroy.otf);
+}
+@font-face {
+  font-family: gilroy-light;
+  src: url(./assests/Gilroy-Light.otf);
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Gilroy !important;
+  background-color: #360d97c2 !important;
+  background: linear-gradient(
+    to right,
+    hsla(283, 100%, 40%, 0.623),
+    hsl(266, 92%, 45%)
+  );
+}
